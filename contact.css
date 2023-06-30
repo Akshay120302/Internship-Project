@@ -1,6 +1,7 @@
 *{
     margin: 3px;
     padding: 0;
+	margin-left: 0.5px;
 }
 
 
@@ -30,17 +31,18 @@ body{
     align-items: center;
     justify-content: space-between;
     padding: 8px 8px;
-    background: rgb(205, 219, 236);
+	background: rgb(12 24 80);
     box-shadow: rgb(166, 216, 231);
     z-index: 999;
     position: sticky;
     top: 0;
     left: 0;
+	height: 82px;
 }
 
 .search input{
     padding: 8px;
-    width: 20vw;
+    width: 21vw;
     border-radius: 10px;
     border: 2px solid black;
 }
@@ -49,6 +51,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+	margin-right: 17px;
 
 }
 
@@ -62,7 +65,7 @@ body{
     text-decoration: none;
     font-size: 20px;
     font-weight: 500;
-    color: black;
+	color: white;
     padding: 10px 10px;
 }
 
@@ -99,10 +102,6 @@ body{
 
 
 
-
-
-
-
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
 
 * {
@@ -111,14 +110,14 @@ body{
 
 
 .contact {
-	background: #f3e0e2;
+	background: #9a5a61;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
 	font-family: 'Montserrat', sans-serif;
-	height: 100vh;
-	margin: -20px 0 50px;
+	height: 82vh;
+	margin: -1px 0 -1px;
 }
 
 h1 {
@@ -266,4 +265,17 @@ input {
 	margin: 0 5px;
 	height: 40px;
 	width: 40px;
+}
+
+.background-1{
+	display: flex;
+    background-color: #1b2639;
+    align-items: center;
+    height: 40px;
+}
+
+marquee{
+	display: flex;
+	align-items: center;
+	color: white;
 }

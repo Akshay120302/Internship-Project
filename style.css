@@ -10,7 +10,12 @@ h6{
 
 h1{
     font-weight: 700;
-    font-size: 60px;
+    font-size: 47px;
+    text-align: center;
+    letter-spacing: 4px;
+    color: rgb(73 19 30);
+    text-shadow: 4px 4px 10px #d3b7ef;
+    font-family: math;
 }
 
 
@@ -63,12 +68,14 @@ body{
     align-items: center;
     justify-content: space-between;
     padding: 8px 8px;
-    background: rgb(205, 219, 236);
+    background: rgb(12 24 80);
     box-shadow: rgb(166, 216, 231);
     z-index: 999;
     position: sticky;
     top: 0;
     left: 0;
+    margin-left: -4px;
+    
 }
 
 .search input{
@@ -94,7 +101,7 @@ body{
     text-decoration: none;
     font-size: 20px;
     font-weight: 500;
-    color: black;
+    color: white;
     padding: 10px 10px;
 }
 
@@ -130,33 +137,29 @@ body{
 }
 
 #hero {
-    background-image: url("img/hero.jpg");
+    background-image: url(img/hero.jpg);
     height: 90vh;
     width: 100%;
     background-size: cover;
     background-position: top 20% right 0;
-    /* padding: 0 80px;
-    padding-left: 80px;
-    padding-right: 0px; */
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    opacity: 0.85;
+    opacity: 1;
+    margin-left: -4px;
+    margin-top: -1px;
 }
 
 #hero pre{
-    margin-top: 80px;
-    margin-left: 10px;
+    margin-top: -266px;
+    margin-left: -35px;
     font-weight: bold;
     font-size: 25px;
     display: inline-block;
     float: left;
     color: rgb(27, 29, 30);
-
-    animation: 
-    typing 3.5s steps(40, end),
-    blink-caret .75s step-end infinite;
+    animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite;
 }
 
 @keyframes typing {
@@ -499,6 +502,7 @@ body{
     /* background-repeat: no-repeat; */
     background-position: 20% 30%;
     background-color: rgb(77, 123, 169);
+    margin-left: -4px;
 }
 
 #newsletter h4{
@@ -550,7 +554,7 @@ body{
 }
 
 .footer-logo{
-    margin-left: 70px;
+    margin-left: 2px;
 }
 
 footer{
@@ -559,6 +563,7 @@ footer{
     justify-content: space-between;
     background-color: rgb(116, 97, 97);
     height: 180px;
+    margin-left: -4px;
 }
 
 footer a{
@@ -601,6 +606,7 @@ footer .follow i{
 
 footer .install img{
     margin: 10px 0 15px 0;
+    margin-bottom: 8px;
 }
 
 footer .install .row img{
